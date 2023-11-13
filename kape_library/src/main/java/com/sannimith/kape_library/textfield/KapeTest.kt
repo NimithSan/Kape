@@ -1,4 +1,4 @@
-package com.sannimith.kape_library
+package com.sannimith.kape_library.textfield
 
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.background
@@ -22,7 +22,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 
 @Composable
-fun CustomTextField(
+fun KapeCustomTextField(
     modifier: Modifier = Modifier,
     modifierForFocus: Modifier = Modifier,
     placeholder: @Composable (() -> Unit) ?= null,
