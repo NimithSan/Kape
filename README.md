@@ -22,7 +22,7 @@ repositories {
 update your dependency in build.gradle
 ```gradle
 dependencies {
-  implementation("com.github.NimithSan:kape:$kape_version")
+  implementation("com.github.NimithSan:Kape:0.0.1")
 }
 ```
 
@@ -38,7 +38,7 @@ repositories {
 update your dependency in build.gradle
 ```gradle
 dependencies {
-  implementation "com.github.NimithSan:kape:$kape_version"
+  implementation "com.github.NimithSan:Kape:0.0.1"
 }
 ```
 
