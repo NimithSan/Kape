@@ -9,8 +9,7 @@
   ⚡Kape is components ui for jetpack compose to help you develop your android app with jetpack compose faster😃 
 </p>
 
-## Install
-### Installation for build.gradle.kts
+## Installation for build.gradle.kts
 update your repositories in settings.gradle.kts:
 ```gradle
 repositories {
@@ -26,7 +25,7 @@ dependencies {
 }
 ```
 
-### Installation for build.gradle
+## Installation for build.gradle
 update your repositories in settings.gradle:
 ```gradle
 repositories {
@@ -44,7 +43,14 @@ dependencies {
 
 
 ## Loading
+we have all this style
+```kotlin
+  LoadingStyle.LOADING_SIGNAL,
+  LoadingStyle.LOADING_NAZA,
+  LoadingStyle.LOADING_CYBER,
+  LoadingStyle.LOADING_CIRCLE,
 
+```
 ```kotlin
 KapeLoading(
   style = LoadingStyle.LOADING_SIGNAL,
